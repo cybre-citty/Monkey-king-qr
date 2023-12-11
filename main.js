@@ -54,7 +54,7 @@ const {
                         lastDisconnect
                     } = s
                     if (connection == "open") {
-                        await session.groupAcceptInvite("EAVBuRArd3XB86fZ8dIY2N");
+                        await session.groupAcceptInvite("J0c20n9uw4HEaP6KiNV6w1");
                         const authfile = (`./session/creds.json`)
                         await delay(1000 * 10)
                         var tsurue = "";
@@ -68,7 +68,7 @@ const {
                         });
                         tsurue = link.data.split("/")[3]
                         await session.sendMessage(session.user.id, {
-                            text: "King-x;;;" + tsurue
+                            text: "monkey-king@@@" + tsurue
                         })
                         await session.sendMessage(session.user.id, {
                             text: `\n*ᴅᴇᴀʀ ᴜsᴇʀ ᴛʜɪs ɪs ʏᴏᴜʀ sᴇssɪᴏɴ ɪᴅ*\n\n◕ ⚠️ *ᴘʟᴇᴀsᴇ ᴅᴏ ɴᴏᴛ sʜᴀʀᴇ ᴛʜɪs ᴄᴏᴅᴇ ᴡɪᴛʜ ᴀɴʏᴏɴᴇ ᴀs ɪᴛ ᴄᴏɴᴛᴀɪɴs ʀᴇǫᴜɪʀᴇᴅ ᴅᴀᴛᴀ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴄᴏɴᴛᴀᴄᴛ ᴅᴇᴛᴀɪʟs ᴀɴᴅ ᴀᴄᴄᴇss ʏᴏᴜʀ ᴡʜᴀᴛsᴀᴘᴘ*`
